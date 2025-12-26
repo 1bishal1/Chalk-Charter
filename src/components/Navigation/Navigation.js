@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../logo.png';
 
 const Navigation = () => {
   return (
@@ -24,7 +25,7 @@ const Navigation = () => {
         </a>
         
         <div className="flex items-center justify-center mx-2 md:mx-4 cursor-pointer transition-transform duration-300 hover:scale-110">
-          <img src="/assets/logo.png" alt="Chalk and Charter" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
+          <img src={logo} alt="Chalk and Charter" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
         </div>
         
         <a 

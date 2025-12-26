@@ -5,7 +5,7 @@ const ApproachCard = ({ color = '#ef4444', title, text }) => {
     <div className="flex flex-col items-center text-center px-4">
       <div className="relative w-full flex justify-center">
         <div
-          className="triangle" 
+          className="triangle"
           style={{
             width: 0,
             height: 0,
@@ -21,19 +21,19 @@ const ApproachCard = ({ color = '#ef4444', title, text }) => {
         </div>
       </div>
 
-      <h4 className="mt-10 font-semibold text-lg text-[#0b2743]">{title}</h4>
-      <p className="mt-3 text-sm text-[#516b78] max-w-xs leading-relaxed">{text}</p>
+      <h4 className="mt-10 font-semibold text-lg text-white">{title}</h4>
+      <p className="mt-3 text-sm text-white/90 max-w-xs leading-relaxed">{text}</p>
     </div>
   );
 };
 
 const Approach = () => {
   return (
-    <section className="w-full bg-[linear-gradient(180deg,#f7fbff,white)] py-12 md:py-20 px-4 md:px-8">
+    <section className="w-full py-12 md:py-20 px-4 md:px-8" style={{ backgroundColor: '#6D8196' }}>
       <div className="max-w-[1200px] mx-auto text-center">
-        <div className="inline-block px-4 py-2 rounded-full border border-blue-200 text-blue-600 font-medium">Our Methodology</div>
-        <h2 className="mt-6 text-4xl md:text-5xl font-extrabold text-blue-600">Our Approach</h2>
-        <p className="mt-4 text-lg md:text-xl text-[#516b78] max-w-2xl mx-auto">Comprehensive solutions tailored to your campus needs</p>
+        <div className="inline-block px-4 py-2 rounded-full border border-white/20 text-white font-medium">Our Methodology</div>
+        <h2 className="mt-6 text-4xl md:text-5xl font-extrabold text-white">Our Approach</h2>
+        <p className="mt-4 text-lg md:text-xl text-white/90 max-w-2xl mx-auto">Comprehensive solutions tailored to your campus needs</p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 items-start">
           <ApproachCard

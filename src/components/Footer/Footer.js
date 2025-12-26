@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../logo.png';
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-white/5">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/assets/logo.png" alt="Chalk and Charter" className="w-12 h-12 object-contain" />
+              <img src={logo} alt="Chalk and Charter" className="w-12 h-12 object-contain" />
               <div className="text-lg font-semibold">Chalk and Charter</div>
             </div>
             <p className="mt-4 text-sm text-white/80 max-w-sm">Where Brands Connect with Educational Institutions</p>
