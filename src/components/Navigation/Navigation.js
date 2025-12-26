@@ -23,11 +23,8 @@ const Navigation = () => {
           OUR CAPABILITIES
         </a>
         
-        <div className="flex items-center justify-center mx-2 md:mx-4 cursor-pointer transition-transform duration-300 hover:scale-110 [&_svg]:drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
-          <svg className="w-7 h-7 md:w-10 md:h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 5L35 15L20 25L5 15L20 5Z" fill="#E63946"/>
-            <path d="M20 15L30 20L20 25L10 20L20 15Z" fill="#1D3557"/>
-          </svg>
+        <div className="flex items-center justify-center mx-2 md:mx-4 cursor-pointer transition-transform duration-300 hover:scale-110">
+          <img src="/assets/logo.png" alt="Chalk and Charter" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
         </div>
         
         <a 
